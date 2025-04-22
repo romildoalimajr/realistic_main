@@ -418,3 +418,32 @@ a{
     background-color: var(--color-white);
     color: var(--color-dark);
 }
+/* Font Sizes*/
+.ti{
+    font-size: 2.4rem;
+}
+.text-sm{
+    font-size: 1.4rem;
+}
+.text-base{
+    font-size: 1.6rem;
+}
+.text-xl{
+    font-size: 2rem;
+}
+.text-2xl{
+    font-size: 2.6rem;
+}
+.text-3xl{
+    font-size: 3.2rem;
+}
+.text-4xl{
+    font-size: 4rem;
+}
+.text-5xl{
+    font-size: 4.8rem;
+}
+.text-6xl{
+    font-size: 6rem;
+}
+
