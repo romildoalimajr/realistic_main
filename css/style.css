@@ -79,3 +79,12 @@
 .property__options__item:last-child {
     border-right: none;
 }
+
+/* Features */
+.features{
+    padding: 4.8rem 0;
+}
+.features__inner{
+    padding: 4.8rem;
+    background-color: var(--color-lighter);
+}
