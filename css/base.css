@@ -482,3 +482,12 @@ a{
     transition: all .3s ease;
 }
 
+/* Icon List */
+
+.icon-list{
+    max-width: 365px;
+}
+.icon-list__text p{
+    width: 90%;
+    max-width: 100%;
+}

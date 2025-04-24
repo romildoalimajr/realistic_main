@@ -135,3 +135,17 @@
 .how-it-works__tabs__content{
     height: 410px;
 }
+
+/* why choose us*/
+.why-choose-us{
+    padding: 4.8rem;
+}
+.why-choose-us__image{
+    height: 650px;
+}
+.why-choose-us__content{
+    position: absolute;
+    top: 50%;
+    right: 5rem;
+    transform: translateY(-50%);
+}
