@@ -182,3 +182,11 @@
 .swiper-button-prev{
     left: 22px;
 }
+
+/* Blogs */
+.blogs{
+    padding: 4.8rem 0;
+}
+.blog__image{
+    height: 270px;
+}
