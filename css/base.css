@@ -357,7 +357,7 @@ a{
 .w-fit{
     width: fit-content;
 }
-.max-w-sx{
+.max-w-xs{
     max-width: 385px;
 }
 .max-w-sm{
