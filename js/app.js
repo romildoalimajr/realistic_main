@@ -29,7 +29,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if(document.querySelector('.swiper')){
         var swiper = new Swiper(".swiper", {
             loop: true,
-            effect: "fade",
+            // effect: "fade",
+            //effect: "coverflow",
+            //effect: "cards",
+            effect: "cube",
             speed: 700,
             autoplayy: {
                 delay: 5000, 
