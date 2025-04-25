@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     /**
      * Testimonials slider
      */
-    if(document.querySelector('.swiper')){
+    if (document.querySelector('.swiper')) {
         var swiper = new Swiper(".swiper", {
             loop: true,
             // effect: "fade",
@@ -35,13 +35,13 @@ document.addEventListener("DOMContentLoaded", () => {
             effect: "cube",
             speed: 700,
             autoplayy: {
-                delay: 5000, 
+                delay: 5000,
                 disableOnInteractions: false,
             },
             fadeEffect: {
                 crossFade: true,
             },
-            pagination:{
+            pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
                 dynamicBullets: true,

@@ -627,79 +627,100 @@ a {
     width: 90%;
     max-width: 100%;
 }
+
 /* Hover styles*/
-.hover\:text-primary:hover{
+.hover\:text-primary:hover {
     color: var(--color-primary);
 }
-.hover\:text-white:hover{
+
+.hover\:text-white:hover {
     color: var(--color-white);
 }
-.hover\:underline:hover{
+
+.hover\:underline:hover {
     text-decoration: underline;
 }
-.hover\:bg-grey:hover{
+
+.hover\:bg-grey:hover {
     background-color: var(--color-grey);
 }
-.hover\:bg-dark:hover{
+
+.hover\:bg-dark:hover {
     background-color: var(--color-dark);
 }
 
 /* Responsiveness */
-@media (min-width: 821px) and (max-width: 1024px){
-    .seciton-title__title{
+@media (min-width: 821px) and (max-width: 1024px) {
+    .seciton-title__title {
         font-size: 3.8rem;
     }
 }
 
-@media (max-wdith: 820px){
-    .md\:hidden{
+@media (max-wdith: 820px) {
+    .md\:hidden {
         display: none;
     }
-    .md\:visible{
+
+    .md\:visible {
         display: block;
     }
-    .md\:flex{
+
+    .md\:flex {
         display: flex;
     }
-    .md\felx-col{
+
+    .md\felx-col {
         flex-direction: column;
     }
-    .md\:flex-col-reverse{
+
+    .md\:flex-col-reverse {
         flex-direction: column-reverse;
     }
-    .md\:items-center{
+
+    .md\:items-center {
         align-items: center;
     }
-    .md\:flex-start{
+
+    .md\:flex-start {
         justify-content: flex-start;
     }
-    .md\:justify-content{
+
+    .md\:justify-content {
         justify-content: center;
-    };
-    .md\:grid-cols-2{
+    }
+
+    ;
+
+    .md\:grid-cols-2 {
         grid-template-columns: 1fr 1fr;
     }
-    .md\:grid-col{
+
+    .md\:grid-col {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
-    .md\:gap-1{
+
+    .md\:gap-1 {
         gap: 1rem;
     }
-    .md\:gap-2{
+
+    .md\:gap-2 {
         gap: 2rem;
     }
-    .md\:gap-3{
+
+    .md\:gap-3 {
         gap: 3rem;
     }
-    .md\:w-full{
+
+    .md\:w-full {
         width: 100%;
     }
-    .md\:mb-1{
+
+    .md\:mb-1 {
         margin-bottom: 1rem;
     }
-    .md\:mb-3{
+
+    .md\:mb-3 {
         margin-bottom: 3rem;
     }
 }
-
