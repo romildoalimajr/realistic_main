@@ -7,7 +7,7 @@
     <link rel="icon" href="assets/images/favicon.png" />
     <title>Realistic</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.26.0/dist/tabler-icons.min.css" />
-    <link rel="stylesheet"   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -17,8 +17,8 @@
     <!-- Header -->
     <header class="site-header">
         <div class="container">
-            <div class="grid grid-cols-3">
-                <div class="site-header__logo">
+            <div class="grid grid-cols-3 md:grid-cols-2">
+                <div class="site-header__logo md:flex md:items-center">
                     <a href="index.html">
                         <div class="text-dark text-2xl weight-600">
                             Realestic
@@ -27,7 +27,7 @@
                 </div>
                 <div class="site-header__nav flex items-center">
                     <nav class="navigation w-full">
-                        <ul class="navigation__menu flex gap-3 justify-center items-center">
+                        <ul class="navigation__menu flex gap-3 justify-center items-center md:gap-3 md:flex-col">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Properties</a></li>
                             <li><a href="#">Agents</a></li>
@@ -35,9 +35,9 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="site-header__actions flex justify-end items-center">
+                <div class="site-header__actions flex justify-end items-center md:gap-1">
                     <a href="#" class="btn btn-primary">Contact Us</a>
-                    <div class="mobile-menu__trigger hidden">
+                    <div class="mobile-menu__trigger hidden md:visible">
                         <div class="mobile-menu__icon">
                             <i class="ti ti-menu-deep"></i>
                         </div>
@@ -404,7 +404,7 @@
         </section>
 
         <!-- Features -->
-         <section class="features">
+        <section class="features">
             <div class="container">
                 <div class="features__inner rounded-2xl">
                     <div class="features__top mb-8">
@@ -420,7 +420,8 @@
                             <div class="grid grid-cols-3 gap-6">
 
                                 <div class="feature pb-3">
-                                    <div class="feature__icon bg-primary__light rounded-lg p-1 flex items-center justify-center w-fit">
+                                    <div
+                                        class="feature__icon bg-primary__light rounded-lg p-1 flex items-center justify-center w-fit">
                                         <i class="ti ti-clipboard-check text-primary text-3xl"></i>
                                     </div>
                                     <h4 class="text-2xl weight-500 mt-2 mb-2">
@@ -433,7 +434,8 @@
                                 </div>
 
                                 <div class="feature pb-3">
-                                    <div class="feature__icon bg-primary__light rounded-lg p-1 flex items-center justify-center w-fit">
+                                    <div
+                                        class="feature__icon bg-primary__light rounded-lg p-1 flex items-center justify-center w-fit">
                                         <i class="ti ti-michelin-star text-primary text-3xl"></i>
                                     </div>
                                     <h4 class="text-2xl weight-500 mt-2 mb-2">
@@ -446,7 +448,8 @@
                                 </div>
 
                                 <div class="feature pb-3">
-                                    <div class="feature__icon bg-primary__light rounded-lg p-1 flex items-center justify-center w-fit">
+                                    <div
+                                        class="feature__icon bg-primary__light rounded-lg p-1 flex items-center justify-center w-fit">
                                         <i class="ti ti-microscope text-primary text-3xl"></i>
                                     </div>
                                     <h4 class="text-2xl weight-500 mt-2 mb-2">
@@ -458,7 +461,8 @@
                                 </div>
 
                                 <div class="feature">
-                                    <div class="feature__icon bg-primary__light rounded-lg p-1 flex items-center justify-center w-fit">
+                                    <div
+                                        class="feature__icon bg-primary__light rounded-lg p-1 flex items-center justify-center w-fit">
                                         <i class="ti ti-loader-3 text-primary text-3xl"></i>
                                     </div>
                                     <h4 class="text-2xl weight-500 mt-2 mb-2">
@@ -471,20 +475,22 @@
                                 </div>
 
                                 <div class="feature">
-                                    <div class="feature__icon bg-primary__light rounded-lg p-1 flex items-center justify-center w-fit">
+                                    <div
+                                        class="feature__icon bg-primary__light rounded-lg p-1 flex items-center justify-center w-fit">
                                         <i class="ti ti-heart-handshake text-primary text-3xl"></i>
                                     </div>
                                     <h4 class="text-2xl weight-500 mt-2 mb-2">
                                         Client Focused
                                     </h4>
                                     <p class="text-xl text-grey m0">
-                                        We prioritize your satisfaction with personaized 
+                                        We prioritize your satisfaction with personaized
                                         service every step of the perfect way.
                                     </p>
                                 </div>
 
                                 <div class="feature">
-                                    <div class="feature__icon bg-primary__light rounded-lg p-1 flex items-center justify-center w-fit">
+                                    <div
+                                        class="feature__icon bg-primary__light rounded-lg p-1 flex items-center justify-center w-fit">
                                         <i class="ti ti-thumb-up text-primary text-3xl"></i>
                                     </div>
                                     <h4 class="text-2xl weight-500 mt-2 mb-2">
@@ -500,18 +506,14 @@
                     </div>
                 </div>
             </div>
-         </section>
+        </section>
 
-         <!-- Our mission-->
-          <section class="our-mission">
+        <!-- Our mission-->
+        <section class="our-mission">
             <div class="container">
                 <div class="our-mission__content grid gap-5 items-center md:gap-2">
                     <div class="our-mission__image rounded-2xl overflow-hidden sm:w-80 sm:mx-auto xs:w-full">
-                        <img 
-                            class="size-100 cover" 
-                            src="assets/images/mission-image.jpg" 
-                            alt="Our mission"
-                        >
+                        <img class="size-100 cover" src="assets/images/mission-image.jpg" alt="Our mission">
                     </div>
                     <div class="our-mission__text">
                         <h3 class="our-mission__title text-2xl weight-500 mb-1-5">
@@ -530,16 +532,16 @@
                     </div>
                 </div>
             </div>
-          </section>
+        </section>
 
-          <!-- How it works-->
-           <section class="section how-it-works">
+        <!-- How it works-->
+        <section class="section how-it-works">
             <div class="container">
                 <div class="how-it-works__top">
                     <div class="section-title text-center max-w-sm mx-auto">
                         <div class="secton-title__name"><span>How it works</span></div>
                         <h2 class="section-title__title">
-                            Discover the <span class="text-primary">advantages</span> and 
+                            Discover the <span class="text-primary">advantages</span> and
                             exclusive benefits
                         </h2>
                     </div>
@@ -551,21 +553,21 @@
                                 <div class="tabs__item active" data-tab="1">
                                     <h3 class="text-2xl weight-500 mb-1-5">Find Your Ideal Property</h3>
                                     <p class="text-xl text-grey m0">
-                                        Browse our extensive listings.filter by location, price, 
+                                        Browse our extensive listings.filter by location, price,
                                         and features to discover your perfect home.
                                     </p>
                                 </div>
                                 <div class="tabs__item" data-tab="2">
                                     <h3 class="text-2xl weight-500 mb-1-5">Schedule a Viewing</h3>
                                     <p class="text-xl text-grey m0">
-                                        Easily book a property tour online at a time that 
+                                        Easily book a property tour online at a time that
                                         suits you, or request a virtual walkthrough.
                                     </p>
                                 </div>
                                 <div class="tabs__item" data-tab="3">
                                     <h3 class="text-2xl weight-500 mb-1-5">Secure Your Deal</h3>
                                     <p class="text-xl text-grey m0">
-                                        Make an ofter or apply for financing through our 
+                                        Make an ofter or apply for financing through our
                                         website, mand let our experts guide you.
                                     </p>
                                 </div>
@@ -574,440 +576,399 @@
                         <div class="col1-2">
                             <div class="how-it-works__tabs__content relative">
                                 <div class="image-wrapper rounded-2xl overflow-hidden" data-tab="1">
-                                    <img
-                                        class="size-100 cover flex" 
-                                        src="assets/images/advantage-1.jpg" 
-                                        alt="Advantage 1"
-                                    >
+                                    <img class="size-100 cover flex" src="assets/images/advantage-1.jpg"
+                                        alt="Advantage 1">
                                 </div>
                                 <div class="image-wrapper rounded-2xl overflow-hidden" data-tab="2">
-                                    <img
-                                        class="size-100 cover flex" 
-                                        src="assets/images/advantage-2.jpg" 
-                                        alt="Advantage 2"
-                                    >
+                                    <img class="size-100 cover flex" src="assets/images/advantage-2.jpg"
+                                        alt="Advantage 2">
                                 </div>
                                 <div class="image-wrapper rounded-2xl overflow-hidden" data-tab="3">
-                                    <img
-                                        class="size-100 cover flex" 
-                                        src="assets/images/advantage-3.jpg" 
-                                        alt="Advantage 3"
-                                    >
+                                    <img class="size-100 cover flex" src="assets/images/advantage-3.jpg"
+                                        alt="Advantage 3">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-           </section>
+        </section>
 
-           <!-- Why choose us -->
-            <section class="why-choose-us">
-                <div class="container">
-                    <div class="why-choose-us__top">
-                        <div class="section-title max-w-sm">
-                            <div class="section-title__name"><span>Why choose us</span></div>
-                            <h2 class="section-title__title">What Make us the right partner for your real estate?</h2>
-                        </div>
+        <!-- Why choose us -->
+        <section class="why-choose-us">
+            <div class="container">
+                <div class="why-choose-us__top">
+                    <div class="section-title max-w-sm">
+                        <div class="section-title__name"><span>Why choose us</span></div>
+                        <h2 class="section-title__title">What Make us the right partner for your real estate?</h2>
                     </div>
-                    <div class="why-choose-us__image relative rounded-2xl overflow-hidden">
-                        <img
-                            class="size-100 cover" 
-                            src="assets/images/why-choose-us.jpg" 
-                            alt="Why chosse us"
-                        />
-                        <div class="why-choose-us__content">
-                            <div class="icon-list p-3 rounded-2xl bg-white">
-                                <div class="icon-list__item flex gap-2 mb-3">
-                                    <i class="ti ti-check text-primary text-xl"></i>
-                                    <div class="icon-lisst__text">
-                                        <h5 class="text-xl weight-500 mb-0-5">
-                                            Expert Local Knowledge
-                                        </h5>
-                                        <p class="text-grey m0">
-                                            Extensive experience and insight 
-                                            into the perfect local market.
-                                        </p>
-                                    </div>
+                </div>
+                <div class="why-choose-us__image relative rounded-2xl overflow-hidden">
+                    <img class="size-100 cover" src="assets/images/why-choose-us.jpg" alt="Why chosse us" />
+                    <div class="why-choose-us__content">
+                        <div class="icon-list p-3 rounded-2xl bg-white">
+                            <div class="icon-list__item flex gap-2 mb-3">
+                                <i class="ti ti-check text-primary text-xl"></i>
+                                <div class="icon-lisst__text">
+                                    <h5 class="text-xl weight-500 mb-0-5">
+                                        Expert Local Knowledge
+                                    </h5>
+                                    <p class="text-grey m0">
+                                        Extensive experience and insight
+                                        into the perfect local market.
+                                    </p>
                                 </div>
-                                <div class="icon-list__item flex gap-2 mb-3">
-                                    <i class="ti ti-check text-primary text-xl"></i>
-                                    <div class="icon-lisst__text">
-                                        <h5 class="text-xl weight-500 mb-0-5">
-                                            Personalized Service
-                                        </h5>
-                                        <p class="text-grey m0">
-                                            Custmized solutions for a smooth
-                                            tailored experience.
-                                        </p>
-                                    </div>
+                            </div>
+                            <div class="icon-list__item flex gap-2 mb-3">
+                                <i class="ti ti-check text-primary text-xl"></i>
+                                <div class="icon-lisst__text">
+                                    <h5 class="text-xl weight-500 mb-0-5">
+                                        Personalized Service
+                                    </h5>
+                                    <p class="text-grey m0">
+                                        Custmized solutions for a smooth
+                                        tailored experience.
+                                    </p>
                                 </div>
-                                <div class="icon-list__item flex gap-2">
-                                    <i class="ti ti-check text-primary text-xl"></i>
-                                    <div class="icon-lisst__text">
-                                        <h5 class="text-xl weight-500 mb-0-5">
-                                            Proven Track Record
-                                        </h5>
-                                        <p class="text-grey m0">
-                                            A history of 100+ successful
-                                            projets and satisfied clients.
-                                        </p>
-                                    </div>
+                            </div>
+                            <div class="icon-list__item flex gap-2">
+                                <i class="ti ti-check text-primary text-xl"></i>
+                                <div class="icon-lisst__text">
+                                    <h5 class="text-xl weight-500 mb-0-5">
+                                        Proven Track Record
+                                    </h5>
+                                    <p class="text-grey m0">
+                                        A history of 100+ successful
+                                        projets and satisfied clients.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- Testimonials-->
-             <section class="testimonials">
-                <div class="container">
-                    <div class="testimonials__iner p-4 rounded-2xl bg-primary__light">
-                        <div class="testimonials__top pb-1">
-                            <div class="section-title max-w-sm mx-auto text-center">
-                                <div class="section-title__name">
-                                    <span>Testimonials</span>
-                                </div>
-                                <h2 class="section-title__title">
-                                    Real feedback from our satisfied clients
-                                </h2>
+        <!-- Testimonials-->
+        <section class="testimonials">
+            <div class="container">
+                <div class="testimonials__iner p-4 rounded-2xl bg-primary__light">
+                    <div class="testimonials__top pb-1">
+                        <div class="section-title max-w-sm mx-auto text-center">
+                            <div class="section-title__name">
+                                <span>Testimonials</span>
                             </div>
-                        </div>
-                        <div class="testimonials__content max-w-md mx-auto">
-                            <div class="swiper pb-4">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide pl-4 pr-4">
-                                        <div class="grid testimonial__grid gap-3 text-white 
-                                        pt-5 pb-5 pl-3 pr-3 bg-primary rounded-2xl">
-                                            <div class="testimonials__image rounded-full overflow-hidden">
-                                                <img
-                                                    class="size-100 cover rounded-full" 
-                                                    src="assets/images/testimonials/1.jpg" 
-                                                    alt="Testimonial 1" 
-                                                />
-                                            </div>
-                                            <div class="testimonial__text">
-                                                <p class="text-2xl weight-500 line-h-1-5">
-                                                    Realistic turned our house hunt into a smooth 
-                                                    and enjoyable experience. Perfect for anyone 
-                                                    looking to buy their first home!...
-                                                </p>
-                                                <div class="mt-2">
-                                                    <p class="name text-2xl wieght-500 mb-0-5">
-                                                        Andy Smith
-                                                    </p>
-                                                    <p class="place opacity-7 text-sm">Los Angeles, CA</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide pl-4 pr-4">
-                                        <div class="grid testimonial__grid gap-3 text-white 
-                                        pt-5 pb-5 pl-3 pr-3 bg-primary rounded-2xl">
-                                            <div class="testimonials__image rounded-full overflow-hidden">
-                                                <img
-                                                    class="size-100 cover rounded-full" 
-                                                    src="assets/images/testimonials/2.jpg" 
-                                                    alt="Testimonial 2" 
-                                                />
-                                            </div>
-                                            <div class="testimonial__text">
-                                                <p class="text-2xl weight-500 line-h-1-5">
-                                                    Realistic made purchasing our dream home 
-                                                    effortless and pleasant. A top choice for 
-                                                    first-time homebuyers!...
-                                                </p>
-                                                <div class="mt-2">
-                                                    <p class="name text-2xl wieght-500 mb-0-5">
-                                                        Chis Daren
-                                                    </p>
-                                                    <p class="place opacity-7 text-sm">Tokyo, Japan</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide pl-4 pr-4">
-                                        <div class="grid testimonial__grid gap-3 text-white 
-                                        pt-5 pb-5 pl-3 pr-3 bg-primary rounded-2xl">
-                                            <div class="testimonials__image rounded-full overflow-hidden">
-                                                <img
-                                                    class="size-100 cover rounded-full" 
-                                                    src="assets/images/testimonials/3.jpg" 
-                                                    alt="Testimonial 3" 
-                                                />
-                                            </div>
-                                            <div class="testimonial__text">
-                                                <p class="text-2xl weight-500 line-h-1-5">
-                                                    Thanks to Realistic, buying our new home 
-                                                    was a breeze. Ideal for newcomers to 
-                                                    the real estate market!...
-                                                </p>
-                                                <div class="mt-2">
-                                                    <p class="name text-2xl wieght-500 mb-0-5">
-                                                        David Wlee
-                                                    </p>
-                                                    <p class="place opacity-7 text-sm">California, US</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide pl-4 pr-4">
-                                        <div class="grid testimonial__grid gap-3 text-white 
-                                        pt-5 pb-5 pl-3 pr-3 bg-primary rounded-2xl">
-                                            <div class="testimonials__image rounded-full overflow-hidden">
-                                                <img
-                                                    class="size-100 cover rounded-full" 
-                                                    src="assets/images/testimonials/4.jpg" 
-                                                    alt="Testimonial 4" 
-                                                />
-                                            </div>
-                                            <div class="testimonial__text">
-                                                <p class="text-2xl weight-500 line-h-1-5">
-                                                    Thanks to Realistic, buying our new home 
-                                                    was a breeze. Ideal for newcomers to 
-                                                    the real estate market!...
-                                                </p>
-                                                <div class="mt-2">
-                                                    <p class="name text-2xl wieght-500 mb-0-5">
-                                                        David Wlee
-                                                    </p>
-                                                    <p class="place opacity-7 text-sm">California, US</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                <div class="swiper-pagination"></div>
-                                <div class="swiper-button-next bg-white text-dark rounded-full"></div>
-                                <div class="swiper-button-prev bg-white text-dark rounded-full"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             </section>
-
-             <!-- Blogs -->
-              <section class="blogs">
-                <div class="container">
-                    <div class="blogs__top">
-                        <div class="section-title max-w-sm">
-                            <div class="section-title__name"><span>Blogs</span></div>
                             <h2 class="section-title__title">
-                                Expert advice and market updates on real estate
+                                Real feedback from our satisfied clients
                             </h2>
                         </div>
                     </div>
-                    <div class="blogs__content pt-2">
-                        <div class="grid grid-cols-3 gap-3">
-                            <div class="blog">
-                                <div class="blog__image rounded-2xl overflow-hidden mb-2">
-                                    <a href="#">
-                                        <img
-                                            class="size-100 cover" 
-                                            src="assets/images/blogs/1.jpg" 
-                                            alt="Blog 1" 
-                                        />
-                                    </a>
-                                </div>
-                                <div class="blog__category mb-1">
-                                    <div class="badge flex">
-                                        <a href="#" 
-                                            class="text-sm bg-primary__light text-primary pt-1 pb-1 
-                                            pl-2 pr-2 weight-500 rounded-full hover:bg-grey hover:text-white transition"
-                                        >
-                                            Resources
-                                        </a>
+                    <div class="testimonials__content max-w-md mx-auto">
+                        <div class="swiper pb-4">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide pl-4 pr-4">
+                                    <div class="grid testimonial__grid gap-3 text-white 
+                                        pt-5 pb-5 pl-3 pr-3 bg-primary rounded-2xl">
+                                        <div class="testimonials__image rounded-full overflow-hidden">
+                                            <img class="size-100 cover rounded-full"
+                                                src="assets/images/testimonials/1.jpg" alt="Testimonial 1" />
+                                        </div>
+                                        <div class="testimonial__text">
+                                            <p class="text-2xl weight-500 line-h-1-5">
+                                                Realistic turned our house hunt into a smooth
+                                                and enjoyable experience. Perfect for anyone
+                                                looking to buy their first home!...
+                                            </p>
+                                            <div class="mt-2">
+                                                <p class="name text-2xl wieght-500 mb-0-5">
+                                                    Andy Smith
+                                                </p>
+                                                <p class="place opacity-7 text-sm">Los Angeles, CA</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <h4 class="text-2xl weight-500 mb-1-5">
-                                    <a href="#" class="transition hover:text-primary">
-                                        The ultimate guide to buying your first home
-                                    </a>
-                                </h4>
-                            </div>
-                            
-                            <div class="blog">
-                                <div class="blog__image rounded-2xl overflow-hidden mb-2">
-                                    <a href="#">
-                                        <img
-                                            class="size-100 cover" 
-                                            src="assets/images/blogs/2.jpg" 
-                                            alt="Blog 2" 
-                                        />
-                                    </a>
-                                </div>
-                                <div class="blog__category mb-1">
-                                    <div class="badge flex">
-                                        <a href="#" 
-                                            class="text-sm bg-primary__light text-primary pt-1 pb-1 
-                                            pl-2 pr-2 weight-500 rounded-full hover:bg-grey hover:text-white transition"
-                                        >
-                                            Articles
-                                        </a>
+
+                                <div class="swiper-slide pl-4 pr-4">
+                                    <div class="grid testimonial__grid gap-3 text-white 
+                                        pt-5 pb-5 pl-3 pr-3 bg-primary rounded-2xl">
+                                        <div class="testimonials__image rounded-full overflow-hidden">
+                                            <img class="size-100 cover rounded-full"
+                                                src="assets/images/testimonials/2.jpg" alt="Testimonial 2" />
+                                        </div>
+                                        <div class="testimonial__text">
+                                            <p class="text-2xl weight-500 line-h-1-5">
+                                                Realistic made purchasing our dream home
+                                                effortless and pleasant. A top choice for
+                                                first-time homebuyers!...
+                                            </p>
+                                            <div class="mt-2">
+                                                <p class="name text-2xl wieght-500 mb-0-5">
+                                                    Chis Daren
+                                                </p>
+                                                <p class="place opacity-7 text-sm">Tokyo, Japan</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <h4 class="text-2xl weight-500 mb-1-5">
-                                    <a href="#" class="transition hover:text-primary">
-                                        How to choose the right real estate agent for your needs
-                                    </a>
-                                </h4>
-                            </div>
-                            <div class="blog">
-                                <div class="blog__image rounded-2xl overflow-hidden mb-2">
-                                    <a href="#">
-                                        <img
-                                            class="size-100 cover" 
-                                            src="assets/images/blogs/3.jpg" 
-                                            alt="Blog 3" 
-                                        />
-                                    </a>
-                                </div>
-                                <div class="blog__category mb-1">
-                                    <div class="badge flex">
-                                        <a href="#" 
-                                            class="text-sm bg-primary__light text-primary pt-1 pb-1 
-                                            pl-2 pr-2 weight-500 rounded-full hover:bg-grey hover:text-white transition"
-                                        >
-                                            News
-                                        </a>
+
+                                <div class="swiper-slide pl-4 pr-4">
+                                    <div class="grid testimonial__grid gap-3 text-white 
+                                        pt-5 pb-5 pl-3 pr-3 bg-primary rounded-2xl">
+                                        <div class="testimonials__image rounded-full overflow-hidden">
+                                            <img class="size-100 cover rounded-full"
+                                                src="assets/images/testimonials/3.jpg" alt="Testimonial 3" />
+                                        </div>
+                                        <div class="testimonial__text">
+                                            <p class="text-2xl weight-500 line-h-1-5">
+                                                Thanks to Realistic, buying our new home
+                                                was a breeze. Ideal for newcomers to
+                                                the real estate market!...
+                                            </p>
+                                            <div class="mt-2">
+                                                <p class="name text-2xl wieght-500 mb-0-5">
+                                                    David Wlee
+                                                </p>
+                                                <p class="place opacity-7 text-sm">California, US</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <h4 class="text-2xl weight-500 mb-1-5">
-                                    <a href="#" class="transition hover:text-primary">
-                                        Key factors to consider when investing in rental properties
-                                    </a>
-                                </h4>
+
+                                <div class="swiper-slide pl-4 pr-4">
+                                    <div class="grid testimonial__grid gap-3 text-white 
+                                        pt-5 pb-5 pl-3 pr-3 bg-primary rounded-2xl">
+                                        <div class="testimonials__image rounded-full overflow-hidden">
+                                            <img class="size-100 cover rounded-full"
+                                                src="assets/images/testimonials/4.jpg" alt="Testimonial 4" />
+                                        </div>
+                                        <div class="testimonial__text">
+                                            <p class="text-2xl weight-500 line-h-1-5">
+                                                Thanks to Realistic, buying our new home
+                                                was a breeze. Ideal for newcomers to
+                                                the real estate market!...
+                                            </p>
+                                            <div class="mt-2">
+                                                <p class="name text-2xl wieght-500 mb-0-5">
+                                                    David Wlee
+                                                </p>
+                                                <p class="place opacity-7 text-sm">California, US</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next bg-white text-dark rounded-full"></div>
+                            <div class="swiper-button-prev bg-white text-dark rounded-full"></div>
                         </div>
                     </div>
                 </div>
-              </section>
+            </div>
+        </section>
 
-              <!-- Contact -->
-               <section class="contact">
-                <div class="container">
-                    <div class="contact__content bg-primary text-white p-3 rounded-2xl text-center">
-                        <div class="max-w-md mx-auto">
-                            <p class="text-2xl weight-500 mb-2">
-                                Want to Book a Call?
-                            </p>
-                            <h3 class="text-5xl weight-500 mb-5">
-                                Ready to make your step in real state? Book Now.
-                            </h3>
-                            <a href="#" class="btn btn-white">View Properties</a>
+        <!-- Blogs -->
+        <section class="blogs">
+            <div class="container">
+                <div class="blogs__top">
+                    <div class="section-title max-w-sm">
+                        <div class="section-title__name"><span>Blogs</span></div>
+                        <h2 class="section-title__title">
+                            Expert advice and market updates on real estate
+                        </h2>
+                    </div>
+                </div>
+                <div class="blogs__content pt-2">
+                    <div class="grid grid-cols-3 gap-3">
+                        <div class="blog">
+                            <div class="blog__image rounded-2xl overflow-hidden mb-2">
+                                <a href="#">
+                                    <img class="size-100 cover" src="assets/images/blogs/1.jpg" alt="Blog 1" />
+                                </a>
+                            </div>
+                            <div class="blog__category mb-1">
+                                <div class="badge flex">
+                                    <a href="#"
+                                        class="text-sm bg-primary__light text-primary pt-1 pb-1 
+                                            pl-2 pr-2 weight-500 rounded-full hover:bg-grey hover:text-white transition">
+                                        Resources
+                                    </a>
+                                </div>
+                            </div>
+                            <h4 class="text-2xl weight-500 mb-1-5">
+                                <a href="#" class="transition hover:text-primary">
+                                    The ultimate guide to buying your first home
+                                </a>
+                            </h4>
+                        </div>
+
+                        <div class="blog">
+                            <div class="blog__image rounded-2xl overflow-hidden mb-2">
+                                <a href="#">
+                                    <img class="size-100 cover" src="assets/images/blogs/2.jpg" alt="Blog 2" />
+                                </a>
+                            </div>
+                            <div class="blog__category mb-1">
+                                <div class="badge flex">
+                                    <a href="#"
+                                        class="text-sm bg-primary__light text-primary pt-1 pb-1 
+                                            pl-2 pr-2 weight-500 rounded-full hover:bg-grey hover:text-white transition">
+                                        Articles
+                                    </a>
+                                </div>
+                            </div>
+                            <h4 class="text-2xl weight-500 mb-1-5">
+                                <a href="#" class="transition hover:text-primary">
+                                    How to choose the right real estate agent for your needs
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="blog">
+                            <div class="blog__image rounded-2xl overflow-hidden mb-2">
+                                <a href="#">
+                                    <img class="size-100 cover" src="assets/images/blogs/3.jpg" alt="Blog 3" />
+                                </a>
+                            </div>
+                            <div class="blog__category mb-1">
+                                <div class="badge flex">
+                                    <a href="#"
+                                        class="text-sm bg-primary__light text-primary pt-1 pb-1 
+                                            pl-2 pr-2 weight-500 rounded-full hover:bg-grey hover:text-white transition">
+                                        News
+                                    </a>
+                                </div>
+                            </div>
+                            <h4 class="text-2xl weight-500 mb-1-5">
+                                <a href="#" class="transition hover:text-primary">
+                                    Key factors to consider when investing in rental properties
+                                </a>
+                            </h4>
                         </div>
                     </div>
                 </div>
-               </section>
+            </div>
+        </section>
 
-            </main>
-            <!-- Footer -->
-             <footer class="footer">
-                <div class="container">
-                    <div class="footer__content pb-5">
-                        <div class="grid grid-cols-2 gap-3">
-                            <div class="footer-text">
-                                <p class="text-3xl weight-500 mb-7 max-w-xs">
-                                    Discover Real state Ideas from your own Ease!
-                                </p>
-                                <div class="footer-socials">
-                                    <div class="social-list gap-1 items-center">
-                                        <a href="#" target="_blank" 
-                                        class="social-list__item bg-primary__light rounded-md p-1
-                                        text-primary flex items-center justify-center">
-                                            <i class="ti ti-brand-facebook text-sm"></i>
-                                        </a>
-                                        <a href="#" target="_blank" class="social-list__item bg-primary__light rounded-md p-1
-                                        text-primary flex items-center justify-center">
-                                            <i class="ti ti-brand-instagram text-sm"></i>
-                                        </a>
-                                        <a href="#" target="_blank" class="social-list__item bg-primary__light rounded-md p-1
-                                        text-primary flex items-center justify-center">
-                                            <i class="ti ti-brand-linkedin text-sm"></i>
-                                        </a>
-                                        <a href="#" target="_blank" class="social-list__item bg-primary__light rounded-md p-1
-                                        text-primary flex items-center justify-center">
-                                            <i class="ti ti-brand-youtube text-sm"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="footer-links grid grid-cols-3 gap-2">
-                                <div class="footer-links__wrapper">
-                                    <h4 class="text-xl weight-500 mb-1-5">Quick Links</h4>
-                                    <ul class="footer_links__list">
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">Home</a>
-                                        </li>
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">About Us</a>
-                                        </li>
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">Our Agents</a>
-                                        </li>
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">Contact Us</a>
-                                        </li>
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">FAQs</a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="footer-links__wrapper">
-                                    <h4 class="text-xl weight-500 mb-1-5">Main Pages</h4>
-                                    <ul class="footer_links__list">
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">Properties</a>
-                                        </li>
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">Properties Types</a>
-                                        </li>
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">Bedrooms</a>
-                                        </li>
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">Categories</a>
-                                        </li>
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">Blogs</a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="footer-links__wrapper">
-                                    <h4 class="text-xl weight-500 mb-1-5">Legal</h4>
-                                    <ul class="footer_links__list">
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">Terms & Conditions</a>
-                                        </li>
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">Privacy Policy</a>
-                                        </li>
-                                        <li class="footer-links__item">
-                                            <a href="#" class="footer-links__link">Cookie Policy</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-bottom pt-2">
-                        <p class="text-sm opacity-7 text-center">
-                            &copy; 
-                            <script>
-                                document.write(new Date().getFullYear());
-                              </script>
-                              Realistic. All rights reserved.
+        <!-- Contact -->
+        <section class="contact">
+            <div class="container">
+                <div class="contact__content bg-primary text-white p-3 rounded-2xl text-center">
+                    <div class="max-w-md mx-auto">
+                        <p class="text-2xl weight-500 mb-2">
+                            Want to Book a Call?
                         </p>
+                        <h3 class="text-5xl weight-500 mb-5">
+                            Ready to make your step in real state? Book Now.
+                        </h3>
+                        <a href="#" class="btn btn-white">View Properties</a>
                     </div>
                 </div>
-             </footer>
+            </div>
+        </section>
+
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content pb-5">
+                <div class="grid grid-cols-2 gap-3 md:grid-col">
+                    <div class="footer-text">
+                        <p class="text-3xl weight-500 mb-7 max-w-xs mb:mb-3">
+                            Discover Real state Ideas from your own Ease!
+                        </p>
+                        <div class="footer-socials">
+                            <div class="social-list flex gap-1 items-center">
+                                <a title="Facebook" href="#" target="_blank" class="social-list__item bg-primary__light rounded-md p-1
+                                        text-primary flex items-center justify-center">
+                                    <i class="ti ti-brand-facebook text-sm"></i>
+                                </a>
+                                <a title="Instagram" href="#" target="_blank" class="social-list__item bg-primary__light rounded-md p-1
+                                        text-primary flex items-center justify-center">
+                                    <i class="ti ti-brand-instagram text-sm"></i>
+                                </a>
+                                <a title="Linkedin" href="#" target="_blank" class="social-list__item bg-primary__light rounded-md p-1
+                                        text-primary flex items-center justify-center">
+                                    <i class="ti ti-brand-linkedin text-sm"></i>
+                                </a>
+                                <a title="Youtube" href="#" target="_blank" class="social-list__item bg-primary__light rounded-md p-1
+                                        text-primary flex items-center justify-center">
+                                    <i class="ti ti-brand-youtube text-sm"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-links grid grid-cols-3 gap-2">
+                        <div class="footer-links__wrapper">
+                            <h4 class="text-xl weight-500 mb-1-5">Quick Links</h4>
+                            <ul class="footer_links__list">
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">Home</a>
+                                </li>
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">About Us</a>
+                                </li>
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">Our Agents</a>
+                                </li>
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">Contact Us</a>
+                                </li>
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-links__wrapper">
+                            <h4 class="text-xl weight-500 mb-1-5">Main Pages</h4>
+                            <ul class="footer_links__list">
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">Properties</a>
+                                </li>
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">Properties Types</a>
+                                </li>
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">Bedrooms</a>
+                                </li>
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">Categories</a>
+                                </li>
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">Blogs</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-links__wrapper">
+                            <h4 class="text-xl weight-500 mb-1-5">Legal</h4>
+                            <ul class="footer_links__list">
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">Terms & Conditions</a>
+                                </li>
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">Privacy Policy</a>
+                                </li>
+                                <li class="footer-links__item">
+                                    <a href="#" class="footer-links__link">Cookie Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom pt-2">
+                <p class="text-sm opacity-7 text-center">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    Realistic. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
 
 
 
